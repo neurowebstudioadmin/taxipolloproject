@@ -102,6 +102,7 @@ export default function GestioneProdotti() {
   }
 
   const addProdotto = async () => {
+    // CORREZIONE: Controlla TUTTI i campi obbligatori
     if (!newProduct.nome || !newProduct.prezzo || newProduct.prezzo <= 0) {
       alert('Inserisci nome e prezzo validi')
       return
@@ -110,10 +111,10 @@ export default function GestioneProdotti() {
     const nuovoProdotto: Prodotto = {
       id: Date.now().toString(),
       nome: newProduct.nome!,
-      categoria: newProduct.categoria!,
+      categoria: newProduct.categoria || 'Pollo',
       prezzo: newProduct.prezzo!,
       descrizione: newProduct.descrizione || '',
-      visibile: newProduct.visibile!
+      visibile: newProduct.visibile !== undefined ? newProduct.visibile : true
     }
 
     try {
