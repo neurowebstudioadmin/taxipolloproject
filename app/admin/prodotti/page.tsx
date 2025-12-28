@@ -102,7 +102,7 @@ export default function GestioneProdotti() {
   }
 
   const addProdotto = async () => {
-    if (!newProduct.nome || newProduct.prezzo <= 0) {
+    if (!newProduct.nome || !newProduct.prezzo || newProduct.prezzo <= 0) {
       alert('Inserisci nome e prezzo validi')
       return
     }
