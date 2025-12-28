@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:netlify": "next build"
   },
   "dependencies": {
     "lucide-react": "^0.309.0",
@@ -15,6 +16,7 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.41.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
