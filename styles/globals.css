@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-bold transition-all duration-300 hover:scale-105;
+    background: linear-gradient(90deg, #FACC15 0%, #FB923C 50%, #F97316 100%);
+  }
+  
+  .card-gradient {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8), rgba(30, 41, 59, 0.8));
+    backdrop-filter: blur(10px);
+  }
+}

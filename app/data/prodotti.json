@@ -1,0 +1,36 @@
+{
+  "prodotti": [
+    {
+      "id": "1",
+      "nome": "Pollo Arrosto",
+      "prezzo": 12.9,
+      "descrizione": "Marinato alle erbe aromatiche",
+      "categoria": "Pollo",
+      "visibile": true
+    },
+    {
+      "id": "2",
+      "nome": "Alette Piccanti",
+      "prezzo": 8.5,
+      "descrizione": "Con salsa BBQ speciale",
+      "categoria": "Antipasti",
+      "visibile": true
+    },
+    {
+      "id": "3",
+      "nome": "Costine BBQ",
+      "prezzo": 15,
+      "descrizione": "Cotte lentamente alla brace",
+      "categoria": "Carne",
+      "visibile": true
+    },
+    {
+      "id": "1766953897924",
+      "nome": "Alette Piccanti dolci",
+      "categoria": "Pollo",
+      "prezzo": 15,
+      "descrizione": "alette dolci ",
+      "visibile": true
+    }
+  ]
+}

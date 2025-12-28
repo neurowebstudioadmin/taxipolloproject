@@ -1,0 +1,78 @@
+{
+  "settimana": [
+    {
+      "giorno": "Lunedì",
+      "data": "2026-01-01",
+      "citta": [
+        "Barletta",
+        "Trani",
+        "Andria"
+      ],
+      "orario": "18:00-20:00",
+      "luogo": "Parcheggio Lidl"
+    },
+    {
+      "giorno": "Martedì",
+      "data": "2026-01-02",
+      "citta": [
+        "Bari",
+        "Trani"
+      ],
+      "orario": "17:00-19:00",
+      "luogo": "Centro Commerciale"
+    },
+    {
+      "giorno": "Mercoledì",
+      "data": "2026-01-03",
+      "citta": [
+        "Andria",
+        "Corato",
+        "Bisceglie"
+      ],
+      "orario": "15:00-17:00",
+      "luogo": "Piazza Municipio"
+    },
+    {
+      "giorno": "Giovedì",
+      "data": "2026-01-04",
+      "citta": [
+        "Corato",
+        "Molfetta",
+        "Terlizzi"
+      ],
+      "orario": "17:00-19:00",
+      "luogo": "Centro Commerciale"
+    },
+    {
+      "giorno": "Venerdì",
+      "data": "2026-01-05",
+      "citta": [
+        "Barletta",
+        "Bari"
+      ],
+      "orario": "18:00-20:00",
+      "luogo": "Piazza Municipio"
+    },
+    {
+      "giorno": "Sabato",
+      "data": "2026-01-06",
+      "citta": [
+        "Andria",
+        "Corato"
+      ],
+      "orario": "18:00-20:00",
+      "luogo": "Parcheggio Lidl"
+    },
+    {
+      "giorno": "Domenica",
+      "data": "2026-01-07",
+      "citta": [
+        "Trani",
+        "Andria",
+        "Corato"
+      ],
+      "orario": "15:00-17:00",
+      "luogo": "Centro Commerciale"
+    }
+  ]
+}
